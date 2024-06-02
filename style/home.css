@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav button{
+    background-color: brown;
+    color: blanchedalmond;
+    padding: 15px 35px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.header{
+background-color: rgba(235, 203, 203, 0.482);
+background-image: url('../images/header_bg.png');
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.greeting{
+font-size: 25px;
+margin-bottom: 0;
+}
+.name{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.intro{
+    color: rgb(100, 88, 88);
+}
+.banner-content{
+    max-width: 700px;
+}
